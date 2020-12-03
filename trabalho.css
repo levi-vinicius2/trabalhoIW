@@ -1,0 +1,158 @@
+
+
+/*CABEÇALHO*/
+header{
+    padding: 30px;
+    background: black;
+}
+p{
+    text-align: justify;
+    margin-right: 10px;
+}
+#marca{
+    color: rgb(197, 81, 81);
+    margin-left: 15px;
+    background: black;
+    font-size: 200%;
+}
+#marca2{
+    margin: 0% auto;
+    text-align: center;
+}
+
+.nav-link{
+    /*margin-left: 20px;*/
+    color: white;
+    background: #222222;
+    display: inline;
+}
+.nav{
+    margin: 0% auto;
+    padding: 20px;
+}
+
+.nav-link:hover{
+    color: #dddddd;
+}
+.form-group{
+    padding-left: 30px;
+    margin: 0% auto;
+}
+#btnPesquisa{
+    margin: auto;
+}
+#mostraBranco{
+    color: white;
+    margin-top: 15px;
+}
+#mostraClaro{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+#apimg{
+    max-width: 100%;
+    max-width: 10%;
+    margin-top: 15px;
+}
+
+/*CORPO PRINCIPAL*/
+
+h1{
+    text-align: center;
+    margin: 0% auto;
+    padding-bottom: 15px;
+}
+iframe{
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.nav-link2{
+    color: black;
+}
+.nav-link2:hover{
+    color: gray;
+}
+
+/*iframe{
+    margin-left: 35px;
+}*/
+/*div > p{
+    margin-right: 50px;
+}*/
+
+#dropdownMenuLink{
+    background: white;
+    color: black;
+}
+
+h2{
+    padding-top: 30px;
+    /*margin-left: 35px;*/
+}
+.cinza{
+    background: #aaaaaa;
+    
+}
+
+.dropdown{
+    padding-top: 28px;
+    margin-left: 3%;
+    padding-right: 5px;
+}
+
+img{
+    max-width: 100%;
+    padding-bottom: 0px;
+    max-height: 100%;
+}
+.imgd{
+    padding: 20px;
+}
+
+button{
+   /* margin-left: 84%;*/
+    margin-bottom: 15px;
+}
+.btn2{
+    margin-left: 15px;
+}
+h4{
+    font-size: 120%;
+}
+h5{
+    font-size: 130%;
+    margin-top: 20px;
+}
+
+
+
+/*RODAPÉ*/
+footer{
+    padding: 30px;
+    background: black;
+}
+.footer{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+.footer:hover{
+    color: #dddddd;
+}
+/*FIM RODAPÉ*/
+
+
+@media screen and (max-width: 1000px){
+    .nav-link{
+        display: block;
+    }
+    .dropdown{
+        margin-right: 30px;
+    }
+    .sobre{
+        display: block;
+    }
+}
